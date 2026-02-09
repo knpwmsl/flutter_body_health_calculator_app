@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_body_health_calculator_app/views/about_ui.dart';
 import 'package:flutter_body_health_calculator_app/views/bmi_ui.dart';
+import 'package:flutter_body_health_calculator_app/views/bmr_ui.dart' show BmrUi;
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class HomeUi extends StatefulWidget {
@@ -15,7 +16,7 @@ class _HomeUiState extends State<HomeUi> {
   List<Widget> showbody = [
     BmiUi(),
     AboutUi(),
-    BmiUi(),
+    BmrUi(),
   ];
   @override
   Widget build(BuildContext context) {
